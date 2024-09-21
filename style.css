@@ -1,0 +1,141 @@
+/************** Estilos Gerais ****************/
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: var(--quart-color);
+    color: var(--primary-color);
+}
+
+/************** Estilos Cores ****************/
+:root {
+    --primary-color: #603F26;
+    --secondary-color: #FFDBB5;
+    --quart-color: #fcf5e9;
+}
+
+/************** Estilos Fontes ****************/
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.poppins-medium {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.poppins-regular-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.protest-guerrilla-regular {
+    font-family: "Protest Guerrilla", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+/************** Estilos cabeçalho ****************/
+.navbar-brand {
+    font-family: "Protest Guerrilla", sans-serif;
+}
+
+.navbar {
+    background-color: var(--primary-color);
+}
+
+.nav-item .nav-link,
+.navbar-brand,
+.navbar-brand:hover {
+    color: var(--secondary-color);
+}
+
+
+/************** Estilos carousel ****************/
+
+.carousel-item img {
+    height: 600px;
+}
+
+/************** Estilos Locais ****************/
+
+.nav-link {
+    color: var(--primary-color);
+}
+
+.nav-pills .nav-link.active {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+}
+
+.nav-link:hover {
+    color: var(--secondary-color);
+    border: 1px solid var(--secondary-color);
+}
+
+/************** Estilos contato ****************/
+
+.form-control {
+    background-color: var(--quart-color);
+    border:1px solid var(--primary-color);
+}
+
+#contato button.btn {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+}
+
+#contato button.btn:hover {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+.social-links li i {
+    color: var(--primary-color);
+}
+
+/************** Estilos Rodapé ****************/
+
+footer {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+}
+
+/************** Estilos media-queries ****************/
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 320px;
+    }
+
+    .pintor {
+        margin-bottom: 8px;
+    }
+
+    #contato button {
+        margin-bottom: 16px;
+        width: 100%;
+    }
+}
